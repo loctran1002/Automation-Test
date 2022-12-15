@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Hash Table">
+    <test verbose="2" preserve-order="true" name="Browser: Chrome">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="InsertTest"></class>
+            <class name="SearchTest"></class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" name="Browser: Edge">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="InsertTest"></class>
+            <class name="SearchTest"></class>
+        </classes>
+    </test>
+</suite>
